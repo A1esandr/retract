@@ -1,7 +1,7 @@
-This repository is an example of retraction in Go modules. It provides the
-following versions:
+Этот репозиторий является примером отзыва в модулях Go. Он обеспечивает
+следующие версии:
 
-* v0.9.9 - the actual `@latest` version.
-* v1.0.0 - an accidentally published version.
-* v1.0.1 - retracts itself and v1.0.0. This is the `@latest` version before
-  retractions are considered, so `retract` directives are loaded from here.
+* v0.9.9 - актуальная `@latest` версия.
+* v1.0.0 - случайно опубликованная версия.
+* v1.0.1 - отзывает себя и v1.0.0. Это самая последняя версия перед
+   учитываемыми отзывами, поэтому отсюда загружаются директивы `retract`.
